@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script>
+        function init() {
+            var planet = document.getElementById("greenplanet");
+            planet.innerHTML = "Red Alert: hit by phaser fire!";
+        }
+
+        window.onload = init;    
+    </script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <title>Drive The Planets</title>
+</head>
+
+<body>
+    <div id="mainText">
+        <br>
+        <h1>Green Planet</h1>
+        <p id="greenplanet">All is well</p>
+        <br>
+        <h1>Red Planet</h1>
+        <p id="redplanet">Nothing To Report</p>
+        <br>
+        <h1>Blue Planet</h1>
+        <p id="blueplanet">All systems A-OK</p>
+        <br>
+    </div>
+
+    <div class="box"></div>
+
+</body>
+
+</html>
